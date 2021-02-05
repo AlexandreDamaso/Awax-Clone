@@ -1,0 +1,19 @@
+/*
+font-family: 'Montserrat', sans-serif;
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    height: 100px;
+    background-color: #000000;
+}
+.header {
+    height: 100px;
+    width: 1140px;
+    margin: auto;
+    color: #ffffff;
+    display: flex;
+}
