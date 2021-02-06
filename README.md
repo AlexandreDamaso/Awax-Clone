@@ -1,2 +1,2 @@
-# Awax Clone
- Site Awax Clone
+# Awax Replica
+ Réplica do site Awax
