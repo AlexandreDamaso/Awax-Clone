@@ -8,6 +8,11 @@ cor padrão #c58855
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+body {
+    overflow-x: hidden;
+}
+/* ##### ##### ##### ##### ##### ##### ##### ##### */
+/* Cabeçalho */
 header {
     height: 100px;
     background-color: #000000;
@@ -15,7 +20,7 @@ header {
 }
 .header {
     height: 100px;
-    width: 1140px;
+    max-width: 1140px;
     margin: auto;
     display: flex;
 }
@@ -53,4 +58,90 @@ header {
 .hmenu .active,
 .hmenu a:hover {
     border-bottom: 5px solid #c58855;
+    color: #cccccc;
+}
+/* ##### ##### ##### ##### ##### ##### ##### ##### */
+/* Banner */
+.banner {
+    height: calc(100vh - 100px);
+    background-color: #333333;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+}
+.banner .sliders {
+    width: 300.7vw;
+    height: 100%;
+    margin-left: 0vw;/*
+    margin-left: -100.3vw; Para Slide 2
+    margin-left: -200.6vw; Para Slide 3 
+    */
+}
+.banner .slide {
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.banner .slidearea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.banner .slidearea h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+.banner .slidearea h1 span {
+    color: #c58855;
+}
+.banner .slidearea h2 {
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.banner .slidearea a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #c58855;
+    padding: 13px 50px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.banner .sliders_pointers {
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #c58855;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.banner .active {
+    background-color: #c58855;
+}
+.default {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background-color: #c58855;
 }
