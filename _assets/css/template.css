@@ -212,3 +212,110 @@ header {
     font-size: 14px;
     line-height: 25px;
 }
+/* ##### ##### ##### ##### ##### ##### ##### ##### */
+/* Section - Services */
+.sb_services {
+    height: 210px;
+    display: flex;
+}
+.sb_sev {
+    flex: 1;
+    border-right: 2px solid #555555;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.sb_services:first-child {
+    border-left: 2px solid #555555;
+}
+.sb_services h1 {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.sb_services h2 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #888888;
+    line-height: 20px;
+}
+.sb_sev_icon {
+    text-align: center;
+    height: 100px;
+    padding-top: 10px;
+}
+/* ##### ##### ##### ##### ##### ##### ##### ##### */
+/* Section - Projects */
+.sb_projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sb_projects_filter {
+    border: 1px solid #999999;
+    background-color: #eeeeee;
+    border-radius: 29px;
+    padding: 0px 20px;
+}
+.sb_projects_filter ul {
+    display: flex;
+}
+.sb_projects_filter li {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-left: 1px solid #999999;
+    cursor: pointer;
+    color: #333;
+}
+.sb_projects_filter .active,
+.sb_projects_filter li:hover {
+    border-bottom: 4px solid #c58855;
+}
+.sb_projects_filter li:first-child {
+    border-left: none;
+}
+.sb_projects_photos {
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sb_photo {
+    width: 280px;
+}
+.sb_photo_area {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+.sb_photo_area img {
+    width: inherit;
+    height: inherit;
+}
+.sb_photo_info {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sb_photo_info h5 {
+    font-weight: 600;
+    font-size: 18px;
+}
+.sb_photo_info p {
+    font-size: 13px;
+}
+.sb_photo_area:hover .sb_photo_info {
+    display: flex;
+}
