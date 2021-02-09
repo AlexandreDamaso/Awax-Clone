@@ -319,3 +319,96 @@ header {
 .sb_photo_area:hover .sb_photo_info {
     display: flex;
 }
+/* ##### ##### ##### ##### ##### ##### ##### ##### */
+/* Section - Projects */
+.bg_team {
+    background-image: url('../media/foto04.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+}
+.sb_team {
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+.bg_team_area {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sb_team .sliders {
+    width: 300vw;
+    height: 100%;
+    margin-left: 0vw;/*
+    margin-left: -100.3vw; Para Slide 2
+    margin-left: -200.6vw; Para Slide 3 
+    */
+}
+.sb_team .slide {
+    width: 280px;
+    height: 100%;
+    display: inline-block;
+    background-color: #ffffff;
+    margin-right: 20px;
+    min-height: 300px;
+}
+.sb_team .slide_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #000000;
+    padding: 40px;
+}
+.bg_team_area .sliders_pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg_team_area .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #c58855;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.bg_team_area .active {
+    background-color: #c58855;
+}
+.sb_team_avatar {
+    width: 150px;
+    height: auto;
+}
+.sb_team_name {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.sb_team_role {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #999999;
+}
+.sb_team_social {
+    display: flex;
+}
+.sb_team_social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #cccccc;
+    border-radius: 13px;
+    margin: 20px 5px 0px 5px;
+}
+.sb_team_social a:hover {
+    background-color: #c58855;
+}
