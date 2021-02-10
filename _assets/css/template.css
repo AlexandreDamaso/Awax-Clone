@@ -165,8 +165,15 @@ header {
     margin: auto;
     min-height: 100px;
 }
+.white {
+    background-color: #ffffff;
+}
+.white .section_title,
+.white .section_body {
+    color: #000000;
+}
 .light {
-    background-color: #f7f7f7;
+    background-color: #eeeeee;
 }
 .light .section_title,
 .light .section_body {
@@ -414,3 +421,90 @@ header {
 }
 /* ##### ##### ##### ##### ##### ##### ##### ##### */
 /* Section - Happy */
+.happy {
+    overflow: hidden;
+}
+.happy_sliders {
+    width: 300vw;
+    margin-left: 0vw;
+}
+.happy_slide {
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    max-width: 1140px;
+    text-align: center;
+}
+.happy_slidearea {
+    padding: 0px 200px;
+    margin-bottom: 60px;
+}
+.happy_slidearea img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 30px;
+}
+.happy_slidearea h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.happy_slidearea h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.happy_slidearea p {
+    line-height: 30px;
+}
+.happy .sliders_pointer {
+    width: 1140px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.happy .point {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #c58855;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.happy .active {
+    background-color: #c58855;
+}
+.happy .point:hover {
+    background-color: #c58855;
+}
+.happy .happy_sliders:hover {
+    margin-left: -167.6vw;
+    /*-83.8vw
+      -167.6
+      */
+}
+/* ##### ##### ##### ##### ##### ##### ##### ##### */
+/* Section - Sponsors */
+#sponsors {
+    height: 158px;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sponsors img {
+    margin: 0px 45px;
+}
+/* ##### ##### ##### ##### ##### ##### ##### ##### */
+/* Section - Price */
+.sb_prices {
+    display: flex;
+    justify-content: space-around;
+}
+.sb_prices_plan {
+    background-color: #ffffff;
+    width: 255px;
+    height: 340px;
+}
