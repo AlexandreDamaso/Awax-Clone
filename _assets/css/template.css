@@ -629,3 +629,42 @@ header {
 .sb_products_footer a:hover {
     background-color: #c58855;
 }
+/* ##### ##### ##### ##### ##### ##### ##### ##### */
+/* Section - Facts */
+.sb_facts {
+    display: flex;
+    justify-content: space-around;
+}
+.sb_facts_work {
+    width: 170px;
+    text-align: center;
+}
+.sb_facts_work_title {
+    height: 120px;
+}
+.sb_facts_work h1 {
+    font-size: 45px;
+    color: #c58855;
+}
+.sb_facts_work_div {
+    width: 20px;
+    height: 3px;
+    background-color: #888888;
+    margin: auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.sb_facts_work h2 {
+    font-size: 17px;
+    text-transform: uppercase;
+    line-height: 25px;
+    text-align: center;
+}
+.sb_facts_work p {
+    font-size: 11px;
+    font-weight: 600;
+    color: #888888;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 12px;
+}
