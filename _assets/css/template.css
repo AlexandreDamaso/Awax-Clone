@@ -716,3 +716,7 @@ header {
 }
 /* ##### ##### ##### ##### ##### ##### ##### ##### */
 /* Section - Contact */
+.sb_form intup {
+    border-bottom: 5px solid #555555;
+    padding: 20px;
+}
