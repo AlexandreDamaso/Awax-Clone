@@ -668,3 +668,51 @@ header {
     line-height: 20px;
     margin-top: 12px;
 }
+/* ##### ##### ##### ##### ##### ##### ##### ##### */
+/* Section - Redes */
+.redes .section_body {
+    max-width: 1140px;
+    margin: auto;
+    min-height: 75px;
+}
+.sb_redes {
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+}
+.sb_redes_share {
+    margin-right: 15px;
+}
+.sb_redes h5,
+.sb_redes h6 {
+    text-transform: uppercase;
+    color: #888888;
+}
+.sb_redes_icon {
+    margin-left: 40px;
+    margin-right: 8px;
+    width: 33px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17px;
+}
+.sb_redes .twitter {
+    background-color: #33c4f0;
+}
+.sb_redes .linkedin {
+    background-color: #137eb4;
+}
+.sb_redes .facebook {
+    background-color: #336296;
+}
+.sb_redes .googleplus {
+    background-color: #ea4438;
+}
+.sb_redes .pinterest {
+    background-color: #b81c29;
+}
+/* ##### ##### ##### ##### ##### ##### ##### ##### */
+/* Section - Contact */
