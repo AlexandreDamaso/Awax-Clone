@@ -772,3 +772,119 @@ textarea#fmessage {
     justify-content: center;
     margin-top: 30px;
 }
+/* ##### ##### ##### ##### ##### ##### ##### ##### */
+/* Section - Contact */
+.section_body_map {
+    height: 420px;
+    background-image: url(../images/mapa.png);
+    background-size: cover;
+    background-position: center;
+}
+.map_area {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+.map_area_box {
+    background-color: #ffffff;
+    height: 340px;
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 245px;
+}
+.map_area_box_info {
+    display: flex;
+    align-items: center;
+    margin: 8px 0px 8px 30px;
+}
+.map_area_box_info .img {
+    width: 35px;
+    height: 35px;
+    background-color: #888888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+.map_area_box_info .text {
+    font-size: 12px;
+    color: #555;
+}
+/* ##### ##### ##### ##### ##### ##### ##### ##### */
+/* Section - Contact */
+.s_footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #000000;
+    color: #ffffff
+}
+.s_footer .sf_area {
+    max-width: 1140px;
+    margin: auto;
+    min-height: 200px;
+    display: flex;
+}
+.sf_area_box1,
+.sf_area_box2,
+.sf_area_box3 {
+    flex: 1;
+    padding: 0px 10px;
+}
+.sf_area_box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.redes_sociais {
+    display: flex;
+}
+.redes_sociais .redes {
+    background-color: #333333;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 3px;
+}
+.sf_area_box2 {
+    color: #888888;
+    font-size: 13px;
+}
+.sf_area_box3 {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 40px;
+}
+.sf_area_box3 .email {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    background-color: #333333;
+    border: none;
+    border-bottom: 2px solid #888888;
+    margin-bottom: 30px;
+    color: #888888;
+    outline: 0px;
+}
+.sf_area_box3 .button {
+    color: #ffffff;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #c58855;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
