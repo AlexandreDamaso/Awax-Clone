@@ -729,6 +729,7 @@ textarea {
     border: none;
     border-bottom: 2px solid #aaaaaa;
     padding: 10px 0px;
+    background-color: #eeeeee;
     font-weight: 600;
     color: #aaaaaa;
     margin-bottom: 25px;
@@ -738,7 +739,7 @@ input#fname::placeholder,
 input#femail::placeholder,
 input#fsubject::placeholder,
 textarea#fmessage::placeholder {
-    color: #aaaaaa;
+color: #aaaaaa;
 }
 input#fname,
 input#femail {
