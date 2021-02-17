@@ -853,6 +853,9 @@ textarea#fmessage {
     align-items: center;
     margin: 0px 3px;
 }
+.redes_sociais .redes:hover {
+    background-color: #c58855;
+}
 .sf_area_box2 {
     color: #888888;
     font-size: 13px;
