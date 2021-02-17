@@ -507,13 +507,20 @@
     <div class="section_body">
         <div class="sb_form">
             <form action="message.html" method="get">
-                <input type="text" id="fname" name="fname" value="NAME">
-                <input type="email" id="femail" name="femail" value="EMAIL">
-                <input type="text" id="fsubject" name="fsubject" value="SUBJECT">
-                <input type="text" id="fmessage" name="fmessage" value="MESSAGE">
-                <input type="submit" value="Send message">
+                <label class="lb_namemail" for="">
+                    <input type="text" id="fname" name="fname" placeholder="NOME">
+                    <input type="email" id="femail" name="femail" placeholder="EMAIL">
+                </label><br>
+                <label for="">
+                    <input type="text" id="fsubject" name="fsubject" placeholder="SUBJECT">
+                </label><br>
+                <label for="">
+                    <textarea name="fmessage" id="fmessage" cols="30" rows="10" placeholder="MESSAGE"></textarea><br>
+                </label>
+                <label class="fbutton" for="">
+                    <input id="fsubmit" type="submit" value="Send message">
+                </label>
             </form>
-            <a href="#">Send message</a>
         </div>
     </div>
 </section>

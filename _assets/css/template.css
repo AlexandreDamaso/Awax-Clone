@@ -716,7 +716,58 @@ header {
 }
 /* ##### ##### ##### ##### ##### ##### ##### ##### */
 /* Section - Contact */
-.sb_form intup {
-    border-bottom: 5px solid #555555;
-    padding: 20px;
+.sb_form {
+    width: 540px;
+    justify-content: space-between;
+    margin: auto;
+}
+input#fname,
+input#femail,
+input#fsubject,
+input#fmessage,
+textarea {
+    border: none;
+    border-bottom: 2px solid #aaaaaa;
+    padding: 10px 0px;
+    font-weight: 600;
+    color: #aaaaaa;
+    margin-bottom: 25px;
+    outline: 0;
+}
+input#fname::placeholder,
+input#femail::placeholder,
+input#fsubject::placeholder,
+textarea#fmessage::placeholder {
+    color: #aaaaaa;
+}
+input#fname,
+input#femail {
+    width: 255px;
+}
+input#fname {
+    margin-right: 25px;
+}
+input#fsubject {
+    width: 540px;
+}
+textarea#fmessage {
+    resize: none;
+    width: 540px;
+    height: 100px;
+}
+#fsubmit {
+    background-color: #c58855;
+    border: none;
+    padding: 13px 45px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.fbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
